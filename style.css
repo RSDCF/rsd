@@ -32,11 +32,18 @@ header {
 .menu {
     display: flex;
 }
-.logo {
-    color: #ff7200;
-    font-weight: 700;
-    font-size: 25px;
-    
+
+.logo span {
+    color: #1f22d2;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 75%;
+    overflow: hidden;
+    padding: 10px 30px 20px 5px;
+    display: flex;
 }
 
 .menu li {
