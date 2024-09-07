@@ -695,9 +695,7 @@ hr {
         margin: 15px 0;
     }
     .logo {
-        color: #ff7200;
-        font-weight: 700;
-        font-size: 5vw; /* Ajustement automatique selon la largeur de l'écran */
+        font-size: 20px; /* Taille plus petite pour les écrans de largeur inférieure à 768px */
     }
 
 }
