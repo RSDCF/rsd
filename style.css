@@ -32,7 +32,11 @@ header {
 .menu {
     display: flex;
 }
-
+.logo {
+    color: #ff7200;
+    font-weight: 700;
+    font-size: 25px;
+}
 .logo span {
     color: #1f22d2;
     position: absolute;
