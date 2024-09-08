@@ -160,7 +160,7 @@ header {
     border: 50%;
     overflow: hidden;
     width: 600px; /* Ajustez la largeur selon vos besoins */
-    height: 400px; 
+    height: auto; 
     display: flex;
     align-items: center;
     justify-content: center;
