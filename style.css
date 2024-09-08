@@ -34,8 +34,8 @@ header {
 }
 .logo {
     color: #ff7200;
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: 15px;
     
 }
 .logo span {
@@ -45,7 +45,7 @@ header {
     left: 1.5rem;
     width: 200px;
     height: 200px;
-    border-radius: 75%;
+    border-radius: 95%;
     overflow: hidden;
     padding: 10px 30px 20px 5px;
     display: flex;
