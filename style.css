@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif; 
 }
 section {
-    margin-top: 15px;
+    margin-top: 50px;
 }
 body {
     position: relative;
@@ -35,7 +35,8 @@ header {
 .logo {
     color: #ff7200;
     font-weight: 700;
-    font-size: 5vw;
+    font-size: 25px;
+    
 }
 .logo span {
     color: #1f22d2;
@@ -44,12 +45,11 @@ header {
     left: 1.5rem;
     width: 200px;
     height: 200px;
-    border-radius: 95%;
+    border-radius: 75%;
     overflow: hidden;
     padding: 10px 30px 20px 5px;
     display: flex;
 }
-
 .menu li {
    margin: 0 15px;
    list-style: none;
@@ -100,7 +100,7 @@ header {
     margin-right: 10%;
     height: calc(100vh - 50px);
     justify-content: space-between;
-    margin: 100px 300px 50px 100px ;
+    margin: 150px 300px 100 150px ;
 }
 #home .left {
     width: 40%;
@@ -111,7 +111,7 @@ header {
     
 }
 #home .left h3 {
-    font-size: 30px;
+    font-size: 40px;
     color: #ff7200;
     margin-bottom: 30px;
 
@@ -206,7 +206,7 @@ header {
     text-transform: capitalize;
     
 }
-.title1 {
+.title {
     font-size: 13x;
     text-transform: uppercase;
     color: #0b0b0b;
@@ -269,28 +269,12 @@ header {
     align-items: center;
     height: calc(100vh - 50px);
     flex-direction: column;
-    padding: 20px 3%;
-    width: 100%;
-}
-
-#about_us1 {
-    display: flex;
-    align-items: center;
-    height: calc(100vh - 50px);
-    flex-direction: column;
     padding: 50px 10%;
     width: 100%;
 }
 
 
 .about, .formulaires {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    height: 70vh;
-}
-.about1 {
     display: flex;
     align-items: center;
     width: 100%;
@@ -304,18 +288,10 @@ header {
      justify-content: center;
      height: 100vh;
 }
-.about1 .left {
-     width: 40%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     height: 100vh;
-}
-
-.about .left img, .about1 .left img{
+.about .left img {
     width: 90%;
 }
-.about .right, .about1 .right {
+.about .right {
     width: 60%;
 }
 .about .right h3 {
@@ -323,19 +299,7 @@ header {
     color: #0b0b0b;
     margin-bottom: 35px;
 }
-.about1 .right h3 {
-    font-size:25px;
-    color: #0b0b0b;
-    margin-bottom: 35px;
-}
-
 .about .right p {
-    font-size: 14px ;
-    color: #999;
-    text-align: justify;
-}
-
-.about1 .right p {
     font-size: 14px ;
     color: #999;
     text-align: justify;
@@ -644,24 +608,24 @@ hr {
         width: 100%;
         max-width: 260px;
     }
-    #about_us, about_us1 {
+    #about_us {
         padding: 10px ;
         height: auto;
     }
-    #about_us .about, about_us1 .about1  {
+    #about_us .about {
         flex-direction: column;
        height: fit-content;
     }
-    #about_us .left , #about_us1 .left, #about_us .right, #about_us1 .right {
+    #about_us .left , #about_us .right {
         width: 100%;
     }
-    #about_us .left, #about_us1 .right {
+    #about_us .left {
         height: fit-content;
     }
-    #about_us .left img, #about_us1 .left img {
+    #about_us .left img {
         width: 50%;
     }
-    #about_us .right, #about_us1 .right {
+    #about_us .right {
         text-align: center;
         padding: 20px;
     }
@@ -731,7 +695,9 @@ hr {
         margin: 15px 0;
     }
     .logo {
-        font-size: 20px; /* Taille plus petite pour les écrans de largeur inférieure à 768px */
+        color: #ff7200;
+        font-weight: 700;
+        font-size: 5vw; /* Ajustement automatique selon la largeur de l'écran */
     }
 
 }
