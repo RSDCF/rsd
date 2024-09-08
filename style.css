@@ -269,7 +269,7 @@ header {
     align-items: center;
     height: calc(100vh - 50px);
     flex-direction: column;
-    padding: 50px 10%;
+    padding: 20px 3%;
     width: 100%;
 }
 
