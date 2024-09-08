@@ -178,8 +178,7 @@ header {
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    height: 70vh;
-    padding: 
+    height: auto; 
 }
 /* animation image */
 
@@ -274,12 +273,20 @@ header {
 }
 
 
-.about, .formulaires {
+.about {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
     height: 70vh;
+}
+
+.formulaires {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
 }
 .about .left {
      width: 40%;
@@ -591,9 +598,14 @@ hr {
         width: 100%;
         padding: 0;
     }
-    #home .left, #formulaire  {
+    #home .left  {
         margin: 50px 0;
     }
+
+    #formulaire  {
+        margin: 10px 0;
+    }
+    
     #home .left h1 {
         font-size: 20px;
         margin-bottom: 15px;
